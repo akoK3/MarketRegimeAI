@@ -1,9 +1,8 @@
-Good starting point. I'll write a proper full README based on this and everything we've built. Here it is:
-markdown# MarketRegimeAI
+# MarketRegimeAI
 
 A machine learning pipeline for identifying and classifying financial market regimes — Bull, Bear, and Sideways — using technical indicators derived from historical price data.
 
-Built on 25 years of SPY data (2000–2025), the pipeline covers the full workflow from data ingestion and regime labeling to feature engineering, model evaluation, and backtesting.
+Built on 25 years of SPY data (2000–2024), the pipeline covers the full workflow from data ingestion and regime labeling to feature engineering, model evaluation, and backtesting.
 
 ---
 
@@ -18,7 +17,7 @@ Most ML finance projects predict price. This project predicts **market condition
 Data → Regime Labeling → Feature Engineering → Model Training → Evaluation → Backtest
 ```
 
-1. **Data** — SPY daily OHLCV from Yahoo Finance (2000–2025), adjusted prices
+1. **Data** — SPY daily OHLCV from Yahoo Finance (2000–2024), adjusted prices
 2. **Regime Labeling** — ATR-normalized dynamic thresholds classify each day as Bull, Bear, or Sideways based on forward returns
 3. **Feature Engineering** — 25+ technical indicators across trend, momentum, volatility, and volume groups
 4. **Model Training** — Logistic Regression, Random Forest, XGBoost, MLP compared using walk-forward validation
@@ -94,7 +93,7 @@ MarketRegimeAI/
 ## Quickstart
 ```bash
 # Clone the repo
-git clone https://github.com/ako-K3/MarketRegimeAI.git
+git clone https://github.com/akoK3/MarketRegimeAI.git
 cd MarketRegimeAI
 
 # Create virtual environment
@@ -133,4 +132,4 @@ The paper evaluates the same pipeline across multiple models and robustness test
 
 ## Author
 
-Built by [Akaki Jvarsheishvili] — connect on [https://www.linkedin.com/in/akaki-jvarsheishvili-891b40359/](#) or [ako_K3](#)
+Built by Akaki Jvarsheishvili, Caldwell University. [LinkedIn](https://www.linkedin.com/in/akaki-jvarsheishvili-891b40359/) | [GitHub](https://github.com/akoK3)
