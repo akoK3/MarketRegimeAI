@@ -17,3 +17,4 @@ data/processed/*
 
 # Others
 .DS_Store
+.venv/
